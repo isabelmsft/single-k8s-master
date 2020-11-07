@@ -23,7 +23,7 @@ str-acs-serv-21   Ready      master   50m    v1.19.3
 
 To join the virtual SONiC DUT to the Kubernetes master, ssh into the virtual SONiC DUT and configure as follows:
 ```
-ssh admin@10.250.0.101
+$ ssh admin@10.250.0.101
 ```
 
 From inside the virtual SONiC DUT: 
