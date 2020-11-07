@@ -37,13 +37,13 @@ After about 45 seconds, you should observe that the SONiC DUT is connected to th
 ```
 admin@vlab-01:~$ show kube server
 Kubernetes server config:
-KUBERNETES_MASTER SERVER ip 10.130.48.224
+KUBERNETES_MASTER SERVER ip <IP of host machine>
 KUBERNETES_MASTER SERVER insecure True
 KUBERNETES_MASTER SERVER disable False
 KUBERNETES_MASTER SERVER port 6443
 
 Kubernetes server state:
-KUBERNETES_MASTER SERVER ip 10.130.48.224
+KUBERNETES_MASTER SERVER ip <IP of host machine>
 KUBERNETES_MASTER SERVER update_time 2020-11-07 03:53:54
 KUBERNETES_MASTER SERVER connected true
 KUBERNETES_MASTER SERVER port 6443
